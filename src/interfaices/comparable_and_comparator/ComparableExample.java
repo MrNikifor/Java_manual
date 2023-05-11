@@ -9,7 +9,7 @@ import java.util.List;
 //  выявляя, является ли объект больше, меньше или равным другому.
 // Интерфейс Comparable используется для сравнения объектов, используя естественный порядок.
 // Для интерфейса Comparator требуется создание отдельно класса и в параметрах его метода устанавливаем два значение
-public class ComparableAndComparatorExample {
+public class ComparableExample {
     public static void main(String[] args) {
         List<Employee> list = new ArrayList<>();
         Employee emp1 = new Employee(100, "Nikita", "Osinskiy", 200_000);
