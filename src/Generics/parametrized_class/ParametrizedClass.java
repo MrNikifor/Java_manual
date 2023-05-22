@@ -1,7 +1,5 @@
-package generics.parametrized_class;
+package Generics.parametrized_class;
 
-import java.util.ArrayList;
-import java.util.List;
 // ОСНОВНАЯ ЦЕЛЬ GENERICS - ВВОДИТЬ БЕЗОПАСНЫЙ МНОГОРАЗОВЫЙ КОД!
 public class ParametrizedClass {
     public static void main(String[] args) {

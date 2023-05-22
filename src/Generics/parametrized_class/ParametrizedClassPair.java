@@ -1,4 +1,4 @@
-package generics.parametrized_class;
+package Generics.parametrized_class;
 // поработаем с двумя типами
 public class ParametrizedClassPair {
     public static void main(String[] args) {

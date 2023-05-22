@@ -2,7 +2,7 @@ package Collections.ArrayList.Methods;
 
 import java.util.ArrayList;
 import java.util.Objects;
-//Чтобы удалить объект с помощью remove, необходимо сперва проверить объекты на equals
+//Чтобы удалить объект с помощью remove, необходимо сперва проверить объекты на equals()
 public class RemoveExample {
     public static void main(String[] args) {
         Student st1 = new Student("Никита", 37, 2);

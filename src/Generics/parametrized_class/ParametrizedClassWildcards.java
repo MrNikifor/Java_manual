@@ -1,4 +1,4 @@
-package generics.parametrized_class;
+package Generics.parametrized_class;
 
 import java.util.ArrayList;
 import java.util.List;

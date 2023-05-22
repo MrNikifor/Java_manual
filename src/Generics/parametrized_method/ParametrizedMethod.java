@@ -1,4 +1,4 @@
-package generics.parametrized_method;
+package Generics.parametrized_method;
 import java.util.ArrayList;
 // ParametrizedMethod работает практически аналогично как ParametrizedClass(описание работы у класса)
 public class ParametrizedMethod {
