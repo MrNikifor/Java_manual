@@ -1,12 +1,11 @@
-package Collections.ArrayList.Methods;
+package Collection.ArrayList.Methods;
 
 import java.util.Arrays;
 import java.util.List;
-
+// asList() - вызывавает это метод только с помощи Array и на выходе вы имеете лис этого же типа.
+// пр.(Array.isList(Data Type[]) -> List(Data Type))
 public class Method_isList {
     public static void main(String[] args) {
-        // asList() - вызывавает это метод только с помощи Array и на выходе вы имеете лис этого же типа.
-        // пр.(Array.isList(Data Type[]) -> List(Data Type))
         StringBuilder sb1 = new StringBuilder("A");
         StringBuilder sb2 = new StringBuilder("B");
         StringBuilder sb3 = new StringBuilder("C");
