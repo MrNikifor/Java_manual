@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 // Для интерфейса Comparator требуется создание отдельно класса и в параметрах его метода устанавливаем два значение.
 // Интерфейс Comparator используется для сравнения объектов, используя не естественный порядок.
 // Comparator-ом обычно пользуются для второй нестандартной(индивидуальной сортировки) как показано в примере на стр.22
@@ -53,8 +52,7 @@ public class ComparatorExample {
 
             @Override
             public int compare(Employee emp1, Employee emp2) {
-                return emp1.name.compareTo(emp2.name);         // все способы сортировки в методе соответствуют интерфейсу
-                // Comparable
+                return emp1.name.compareTo(emp2.name); // все способы сортировки в методе соответствуют интерфейсу Comparable
             }
         }
 
