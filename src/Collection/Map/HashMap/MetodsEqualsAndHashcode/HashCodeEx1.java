@@ -23,6 +23,12 @@ public class HashCodeEx1 {
         System.out.println("result = " + result);// без переопределения hashCoda результат будет false, иначе true
 
         System.out.println(st2.equals(st4)); // equals вернет нам true, так как студенты по полям абсолютно идеентичны
+
+        // Метод entrySet() таким способом выводит набор записей в HashMap
+        for (Map.Entry<Student,Double> entry :map.entrySet()) {
+            System.out.println(entry.getKey() + " - " + entry.getValue());
+        }
+
     }
 }
 class Student{
