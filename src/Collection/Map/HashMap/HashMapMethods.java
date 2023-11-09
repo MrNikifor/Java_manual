@@ -7,7 +7,7 @@ import java.util.Map;
 * Его методы работают очень быстро.
 * Ключи элементов должны быть уникальными.Ключ может быть null
 * Значение элементов могут повторяться. Значение может быть null*/
-public class HashMapMetods {
+public class HashMapMethods {
     public static void main(String[] args) {
         Map<Integer,String> map1 = new HashMap<>();
         map1.put(4343,"Вася Дацко");
