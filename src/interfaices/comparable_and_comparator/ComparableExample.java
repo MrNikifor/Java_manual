@@ -15,7 +15,7 @@ public class ComparableExample {
         Employee emp1 = new Employee(100, "Nikita", "Osinskiy", 200_000);
         Employee emp2 = new Employee(10, "Sergey", "Markushew", 150_000);
         Employee emp3 = new Employee(1000, "Nikolay", "Lagutin", 100_000);
-        // Arrays.sort(new Employee[]{emp1,emp2,emp3}); // также можно сортировать в массивах
+        // Arrays.sort(new Person[]{emp1,emp2,emp3}); // также можно сортировать в массивах
         list.add(emp1);
         list.add(emp2);
         list.add(emp3);
@@ -39,7 +39,7 @@ public class ComparableExample {
 
         @Override
         public String toString() {
-            return "Employee{" +
+            return "Person{" +
                     " id = " + id +
                     ", name = '" + name + '\'' +
                     ", surname = '" + surname + '\'' +

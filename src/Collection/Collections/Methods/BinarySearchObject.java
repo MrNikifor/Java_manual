@@ -42,7 +42,7 @@ public class BinarySearchObject {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Person{" +
                 " id = " + id +
                 ", name = '" + name + '\'' +
                 ", surname = '" + surname + '\'' +
